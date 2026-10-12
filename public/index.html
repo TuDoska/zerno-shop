@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Зерно — свіжообсмажена кава з доставкою</title>
+  <meta name="description" content="Зерно — інтернет-магазин свіжообсмаженої спешелті-кави, чаю та аксесуарів для заварювання з доставкою по Україні.">
+  <meta name="theme-color" content="#2f5d50">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div>
+          <p class="eyebrow" style="color:#f2c38a">Спешелті-кава зі Львова</p>
+          <h1 class="hero__title">Кава, обсмажена <em>цього тижня</em></h1>
+          <p class="hero__text">Обираємо зерно з найкращих ферм світу, обсмажуємо невеликими партіями й відправляємо свіжим: від обсмаження до вашої чашки не більше 7 днів.</p>
+          <div class="hero__actions">
+            <a class="btn btn--accent" href="catalog.html?category=coffee">Обрати каву</a>
+            <a class="btn btn--ghost" href="catalog.html?category=sets">Подарункові набори</a>
+          </div>
+          <div class="hero__facts">
+            <div><b>10+</b><span>країн походження</span></div>
+            <div><b>7 днів</b><span>максимальна свіжість</span></div>
+            <div><b>1500 ₴</b><span>безкоштовна доставка</span></div>
+          </div>
+        </div>
+        <div class="hero__art"><img src="img/products/espresso-zerno.svg" alt="Пачка фірмової кави «Зерно»"></div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section__head"><div><p class="eyebrow">Категорії</p><h2 class="section__title">Що шукаєте сьогодні?</h2></div></div>
+      <div class="cats" id="cats"></div>
+    </section>
+
+    <section class="container section">
+      <div class="section__head">
+        <div><p class="eyebrow">Хіти продажу</p><h2 class="section__title">Улюблене покупцями</h2></div>
+        <a class="section__more" href="catalog.html">Увесь каталог →</a>
+      </div>
+      <div class="grid" id="bestsellers"></div>
+    </section>
+
+    <section class="container section">
+      <div class="promo-banner">
+        <div><h3>−100 ₴ на перше замовлення</h3><p>Для замовлень від 800 ₴. Введіть промокод у кошику.</p></div>
+        <button class="promo-code" data-copy="WELCOME" title="Скопіювати">WELCOME</button>
+      </div>
+    </section>
+
+    <section class="container section" id="about">
+      <div class="story">
+        <div>
+          <p class="eyebrow" style="color:#f2c38a">Як ми працюємо</p>
+          <h2 class="section__title">Від ферми до вашої чашки</h2>
+          <div class="story__steps">
+            <div class="story__step"><div><b>Обираємо лоти</b><p>Дегустуємо десятки зразків і беремо лише каву з оцінкою від 84 балів.</p></div></div>
+            <div class="story__step"><div><b>Обсмажуємо щопонеділка</b><p>Невеликі партії, окремий профіль обсмаження для кожного зерна.</p></div></div>
+            <div class="story__step"><div><b>Відправляємо свіжою</b><p>Пакуємо в пакети з клапаном і відправляємо Новою Поштою за 1–2 дні.</p></div></div>
+          </div>
+        </div>
+        <div class="story__visual">
+          <img src="img/products/kenya-nyeri.svg" alt="" loading="lazy">
+          <img src="img/products/v60-dripper.svg" alt="" loading="lazy">
+          <img src="img/products/hand-grinder.svg" alt="" loading="lazy">
+          <img src="img/products/ceramic-mug.svg" alt="" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section__head">
+        <div><p class="eyebrow">Свіжий урожай</p><h2 class="section__title">Нове в асортименті</h2></div>
+        <a class="section__more" href="catalog.html?category=coffee&sort=new">Уся кава →</a>
+      </div>
+      <div class="grid" id="new-arrivals"></div>
+    </section>
+
+    <section class="container section" id="delivery" style="margin-bottom:24px">
+      <div class="perks">
+        <div class="perk"><div class="perk__icon">🚚</div><h3>Доставка Новою Поштою</h3><p>80 ₴ у відділення, безкоштовно від 1500 ₴. Курʼєр — 140 ₴.</p></div>
+        <div class="perk"><div class="perk__icon">💳</div><h3>Зручна оплата</h3><p>При отриманні або переказом на картку після підтвердження.</p></div>
+        <div class="perk"><div class="perk__icon">⚙️</div><h3>Змелемо під ваш спосіб</h3><p>Еспресо, фільтр, турка — або залишимо в зернах.</p></div>
+        <div class="perk"><div class="perk__icon">☕</div><h3>Самовивіз у Львові</h3><p>Кавʼярня на вул. Кавовій, 1 — щодня з 8:00 до 21:00.</p></div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/ui.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
